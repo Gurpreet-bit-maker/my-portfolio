@@ -1,0 +1,165 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: black;
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    user-select: none;
+  }
+  #name {
+    text-transform: capitalize;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: red;
+  }
+  header {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #container {
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    height: 80%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px 1px grey;
+  }
+  #container img {
+    width: 25px;
+  
+    border-radius: 50px;
+  }
+  #balance h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #both {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .line {
+    width: 1px;
+    background-color: black;
+    height: 100%;
+  }
+  /* main section */
+  #box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    max-height: 60vh;
+    min-height: 31vh;
+    width: 30%;
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 5px 1px grey;
+  }
+  
+  .right {
+    margin-left: 10px;
+    height: 30vh;
+    width: 20%;
+    border: 1px solid;
+    /* padding-left: 20px; */
+    margin-top: 10px;
+    text-transform: capitalize;
+    box-shadow: 1px 2px 5px 1px grey;
+    padding: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  select {
+    height: 40px;
+    border-radius: 8px;
+    padding: 7px;
+  }
+  option {
+    text-transform: capitalize;
+  }
+  input {
+    margin-top: 10px;
+    height: 5vh;
+    padding: 5px;
+  }
+  .name {
+    margin-left: 16px;
+  }
+  button {
+    margin-left: 98px;
+    margin-top: 10px;
+    height: 30px;
+    /* background-color: crimson; */
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: yellow !important;
+    color: blue !important;
+  }
+  button:active {
+    background-color: white;
+    color: black;
+  }
+  table {
+    border: 1px solid;
+    position: relative;
+  }
+  th {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(131, 231, 0);
+    color: rgb(70, 55, 55);
+    text-transform: capitalize;
+  }
+  td {
+    text-align: center;
+    border: 1px solid;
+  }
+  /* js css */
+  .incomeClass {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 17px;
+  }
+  .expenseClass {
+    color: green;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 32px;
+  }
+  .img-type-arrow {
+    height: 22px;
+    width: 30px;
+    position: absolute;
+    left: 304px;
+    margin-top: 3px;
+  }
+  .img-delete-arrow {
+    height: 22px;
+    width: 25px;
+    position: absolute;
+    left: 393px;
+    margin-top: 3px;
+  }
+  
